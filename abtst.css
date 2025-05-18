@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cairo', sans-serif;
+  background: radial-gradient(ellipse at center, #2a2a2a 0%, #000000 100%);
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    direction: rtl;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 30px 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    text-align: center;
+    color:  #9c8e59;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    margin-top: 40px;
+    text-align: start;
+}
+
+.back-link a {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #ffcc70;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.back-link a:hover {
+    background-color: #ffa500;
+}

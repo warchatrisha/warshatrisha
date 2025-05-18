@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cairo', sans-serif;
+  background: radial-gradient(ellipse at center, #2a2a2a 0%, #000000 100%);
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:transparent;
+    color: #333;
+    direction: rtl;
+    margin: 0;
+    padding: 0 20px;
+}
+h1, h2 {
+    color:  #9c8e59;
+    margin-top: 40px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+    background-color: transparent;
+    padding: 30px 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+.service {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+.service:last-child {
+    border-bottom: none;
+}
+h2 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    color:  #9c8e59;
+}
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #ffffff;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    body {
+        padding: 0 10px;
+    }
+}
+.back-link {
+    margin-top: 40px;
+    text-align: start; /* يتغير تلقائيًا حسب اتجاه الصفحة */
+}
+
+.back-link a {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #ffcc70;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.back-link a:hover {
+    background-color: #ffa500;
+}

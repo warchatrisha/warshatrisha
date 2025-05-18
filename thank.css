@@ -1,0 +1,24 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* الوسط أفقيًا */
+  align-items: center;     /* الوسط عموديًا */
+  text-align: center;
+  flex-direction: column;
+}
+
+
+
+    h1 {
+      color: #9c8e59;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #ccc;
+      font-size: 1.2em;
+    }
