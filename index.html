@@ -3,22 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="كتابة سيناريو, إخراج, تمثيل, تصوير, إنتاج, ورشة ريشة, مواهب جزائرية, warchatrisha, warshat risha">
+  <meta name="keywords" content="كتابة سيناريو, إخراج, تمثيل, تصوير, إنتاج, ورشة ريشة, مواهب جزائرية, warchatrisha, warshat risha">
   <title>Risha</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="img2-fotor.png" type="image/x-icon">
 <input type="hidden" name="_redirect" value=" warshatrisha.netlify.app">
 </head>
 <body id="i2ex">
-      <nav class="navbar">
-  <ul>
+ <header>
+<nav class="navbar">
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <ul id="nav-links">
     <li><a href="#index">الرئيسية</a></li>
-    <li><a href="about.html">حول</a></li> <!-- هذا ينقلك مباشرة للفوتر -->
+    <li><a href="about.html">حول</a></li>
     <li><a href="services.html">الخدمات</a></li>
     <li><a href="joinus.html">انضم لنا</a></li>
     <li><a href="#contact">اتصل بنا</a></li>
   </ul>
-</nav> 
+</nav>
+
+
 <main>
   <div class="overlay">
     <div class="logo-container">
@@ -47,9 +51,16 @@
   <hr class="footer-line"> 
 <div id="contact" class="contact-row">
   <div class="contact-item">📧 البريد الإلكتروني: warshatelrishaofficial@gmail.com</div>
-<div class="contact-item">📞 الهاتف: 0672546063</div>
+  <div class="contact-item">📞 الهاتف: +213672546063</div>
   <div class="contact-item">📍 العنوان: الجزائر العاصمة</div>
 </div>
 </footer>
+<script>
+  function toggleMenu() {
+    const navLinks = document.getElementById("nav-links");
+    navLinks.classList.toggle("show");
+  }
+</script>
+
 </body>
 </html>
