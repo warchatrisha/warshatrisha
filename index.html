@@ -71,6 +71,13 @@
     navLinks.classList.toggle("show");
   }
 </script>
+<script>
+  if (window.location.hash) {
+    setTimeout(() => {
+      history.replaceState("", document.title, window.location.pathname + window.location.search);
+    }, 100);
+  }
+</script>
 
 </body>
 </html>
