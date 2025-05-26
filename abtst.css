@@ -35,13 +35,13 @@ body {
 
 h1 {
     text-align: center;
-    color:  #9c8e59;
+    color:  #ffa500;
     margin-bottom: 20px;
 }
 h2 {
     color: #ffffff;
 }
-h3 { color:#9c8e59;
+h3 { color:#cdcd25;
 }
 h4 {
     color:#b69b36 ;
@@ -60,7 +60,7 @@ p {
 .back-link a {
     display: inline-block;
     padding: 10px 18px;
-    background-color: #ffcc70;
+    background-color: #ffa500;
     color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 6px;
@@ -70,6 +70,7 @@ p {
 }
 
 .back-link a:hover {
-    background-color: #ffa500;
+    background-color: #000000;
+    color: #ffa500;
 }
 
