@@ -115,24 +115,41 @@ main {
 }
 
 .navbar ul li a {
-  color: #fff;
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  color: #ffffff;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  border-radius: 999px;
+  z-index: 1;
 }
-
-.navbar ul li a:hover {
-  color: #ffa500;
+.navbar ul li a:hover::before {
+  transform: scaleX(1);
 }
-
-/* ======= الفوتر ======= */
-
+nav ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffa500 ;
+  border-radius: 999px;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
+.navbar ul li a:hover { 
+  color: #000;
+}
 .footer {
   background-color: transparent;
   color: white;
   text-align: center;
-  padding: 5px 10px 10px; /* ✅ تصغير البادينغ */
+  padding: 5px 10px 10px; 
   margin-top: auto;
 }
 
@@ -173,7 +190,7 @@ main {
   margin: 10px 0;
 }
 
-/* 🟦 تنسيق خاص بالشاشات الصغيرة (مثل الهواتف) */
+
 @media (max-width: 768px) {
   .contact-row {
     flex-direction: column;
@@ -212,7 +229,7 @@ html {
  .navbar ul {
   display: none;
   flex-direction: column;
-  align-items: flex-start; /* ← هنا التغيير المهم */
+  align-items: flex-start; 
   width: 100%;
   padding: 10px 20px;
   text-align: right;
